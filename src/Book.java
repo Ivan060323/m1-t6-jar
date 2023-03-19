@@ -10,6 +10,7 @@ public class Book {
         this.title = title;
         this.author = author;
         this.year = year;
+        System.out.println("new changes");
     }
 
     public String getTitle() {
