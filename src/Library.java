@@ -20,6 +20,7 @@ public class Library {
 
         System.out.println("Введите год издания:");
         int year = scanner.nextInt();
+        System.out.println(2);
 
         bookList.add(new Book(name, author, year));
     }
